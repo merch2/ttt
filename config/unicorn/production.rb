@@ -7,8 +7,8 @@ pid               "#{app_path}/current/tmp/pids/unicorn.pid"
 listen "/tmp/unicorn.livepets.sock", backlog: 64
 
 # logging
-stderr_path "log/unicorn.stderr.log"
-stdout_path "log/unicorn.stdout.log"
+stderr_path "#{app_path}/log/unicorn.stderr.log"
+stdout_path "#{app_path}/log/unicorn.stdout.log"
 
 # workers
 worker_processes 1
