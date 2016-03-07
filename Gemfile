@@ -31,8 +31,8 @@ gem 'mini_magick'
 gem 'nested_form'
 gem 'remotipart'
 
-gem 'dotenv'
-gem 'dotenv-deployment', require: 'dotenv/deployment'
+#gem 'dotenv'
+#gem 'dotenv-deployment', require: 'dotenv/deployment'
 
 group :assets do
   gem 'sprockets-rails', github: 'rails/sprockets-rails'
