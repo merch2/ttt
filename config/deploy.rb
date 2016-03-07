@@ -3,7 +3,7 @@ lock '3.4.0'
 
 set :tmp_dir, '/home/rails/tmp'
 
-set :application, 'livepets'
+set :application, 'ttt'
 set :repo_url, 'https://github.com/merch2/ttt.git'
 
 # Default deploy_to directory is /var/www/my_app_name
